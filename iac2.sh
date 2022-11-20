@@ -20,4 +20,9 @@ unzip main.zip
 cd linux-site-dio-main
 cp -R * /var/www/html/
 
+echo "Limpando arquivos tmp"
+cd /var/www/html
+rm -Rf /tmp/linux-site-dio-main
+rm main.zip
+
 echo "Finalizando..."
